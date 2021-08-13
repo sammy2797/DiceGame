@@ -155,12 +155,12 @@ h2{
 }
 #img1{
     width:660px;
+    height:400px;
     margin:0 auto;  
     max-width:100%;
-}
-img{
-    width:100%;
-    max-width:100%;
+    background-image: url('https://media.giphy.com/media/ckHAdLU2OmY7knUClD/giphy.gif');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
     border:1px solid black;
     border-radius:50%;
 }
