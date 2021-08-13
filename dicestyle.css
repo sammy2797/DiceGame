@@ -145,3 +145,11 @@ h2{
 #mainparent{
     border:1px solid transparent;
 }
+#b1{
+    position:relative;
+    left:105px;
+}
+#b2{
+    position:relative;
+    left:95px;
+}
