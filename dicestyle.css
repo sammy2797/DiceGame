@@ -144,3 +144,6 @@ h2{
 #mainparent{
     border:1px solid transparent;
 }
+#b1,#b2{
+    text-align:center;
+}
