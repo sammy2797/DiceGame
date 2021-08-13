@@ -103,7 +103,7 @@ body{
     display:inline-block;
 }
 #parent{
-    width:660px;
+    width:60%;
     margin:0 auto; 
     display:none; 
 }
