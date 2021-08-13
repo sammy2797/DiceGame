@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dicestyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="mainparent">
+        <h1><button id="result" onclick="info()">Start Game 🎲</button></h1>
+        <br>
+        <h2>Lets Begin !!!</h2>
+        <div id="img1"><img src="https://media.giphy.com/media/ckHAdLU2OmY7knUClD/giphy.gif"></div>
+        <div id="parent">   
+        <div id="outer1">
+            <button class="styles" id="b1" onclick="roll1();"></button><br>
+            <div class="main" id = "mainbox1">
+                <div class="innerboxes" id="d51" ></div>
+                <div class="innerboxes" id="d52"></div>
+                <div class="innerboxes" id="d53"></div>
+                <div class="innerboxes" id="d54"></div>
+                <div class="innerboxes" id="d55"></div>
+                <div class="innerboxes" id="d56"></div>
+            </div>
+            <div class="main" id = "mainbox2">
+                <div class="innerboxes" id="d41" ></div>
+                <div class="innerboxes" id="d42"></div>
+                <div class="innerboxes" id="d43"></div>
+                <div class="innerboxes" id="d44"></div>
+                <div class="innerboxes" id="d45"></div>
+                <div class="innerboxes" id="d46"></div>
+            </div>
+            <div class="main" id = "mainbox3">
+                <div class="innerboxes" id="d31" ></div>
+                <div class="innerboxes" id="d32"></div>
+                <div class="innerboxes" id="d33"></div>
+                <div class="innerboxes" id="d34"></div>
+                <div class="innerboxes" id="d35"></div>
+                <div class="innerboxes" id="d36"></div>
+            </div>
+            <div class="main" id = "mainbox4">
+                <div class="innerboxes" id="d21" ></div>
+                <div class="innerboxes" id="d22"></div>
+                <div class="innerboxes" id="d23"></div>
+                <div class="innerboxes" id="d24"></div>
+                <div class="innerboxes" id="d25"></div>
+                <div class="innerboxes" id="d26"></div>
+            </div>
+            <div class="main" id = "mainbox5">
+                <div class="innerboxes" id="d11" ></div>
+                <div class="innerboxes" id="d12"></div>
+                <div class="innerboxes" id="d13"></div>
+                <div class="innerboxes" id="d14"></div>
+                <div class="innerboxes" id="d15"></div>
+                <div class="innerboxes" id="d16"></div>
+            </div>
+            <div class="main" id = "mainbox6">
+                <div class="innerboxes" id="d1" ></div>
+                <div class="innerboxes" id="d2"></div>
+                <div class="innerboxes" id="d3"></div>
+                <div class="innerboxes" id="d4"></div>
+                <div class="innerboxes" id="d5"></div>
+                <div class="innerboxes" id="d6"></div>
+            </div>  
+        </div>
+        <div id="outer2">
+            <button class="styles" id="b2" onclick="roll2();"></button><br>
+            <div class="main" id = "mainbox7">
+                <div class="innerboxes" id="d51" ></div>
+                <div class="innerboxes" id="d52"></div>
+                <div class="innerboxes" id="d53"></div>
+                <div class="innerboxes" id="d54"></div>
+                <div class="innerboxes" id="d55"></div>
+                <div class="innerboxes" id="d56"></div>
+            </div>
+            <div class="main" id = "mainbox8">
+                <div class="innerboxes" id="d41" ></div>
+                <div class="innerboxes" id="d42"></div>
+                <div class="innerboxes" id="d43"></div>
+                <div class="innerboxes" id="d44"></div>
+                <div class="innerboxes" id="d45"></div>
+                <div class="innerboxes" id="d46"></div>
+            </div>
+            <div class="main" id = "mainbox9">
+                <div class="innerboxes" id="d31" ></div>
+                <div class="innerboxes" id="d32"></div>
+                <div class="innerboxes" id="d33"></div>
+                <div class="innerboxes" id="d34"></div>
+                <div class="innerboxes" id="d35"></div>
+                <div class="innerboxes" id="d36"></div>
+            </div>
+            <div class="main" id = "mainbox10">
+                <div class="innerboxes" id="d21" ></div>
+                <div class="innerboxes" id="d22"></div>
+                <div class="innerboxes" id="d23"></div>
+                <div class="innerboxes" id="d24"></div>
+                <div class="innerboxes" id="d25"></div>
+                <div class="innerboxes" id="d26"></div>
+            </div>
+            <div class="main" id = "mainbox11">
+                <div class="innerboxes" id="d11" ></div>
+                <div class="innerboxes" id="d12"></div>
+                <div class="innerboxes" id="d13"></div>
+                <div class="innerboxes" id="d14"></div>
+                <div class="innerboxes" id="d15"></div>
+                <div class="innerboxes" id="d16"></div>
+            </div>
+            <div class="main" id = "mainbox12">
+                <div class="innerboxes" id="d1" ></div>
+                <div class="innerboxes" id="d2"></div>
+                <div class="innerboxes" id="d3"></div>
+                <div class="innerboxes" id="d4"></div>
+                <div class="innerboxes" id="d5"></div>
+                <div class="innerboxes" id="d6"></div>
+            </div>  
+        </div>
+        </div>
+    </div>
+    <script src="dicejavascript.js" type="text/javascript"> 
+    </script>
+</body>
+</html>
